@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd913d86220486ba62f0965471e85e2, type: 3}
+  m_Name: Barracks
+  m_EditorClassIdentifier: 
+  id: barracks
+  title: Barracks
+  description: Simple barracks
+  prefab: {fileID: 8727373751102435774, guid: 56d3492aa3ae0e74da0b4053384acdcd, type: 3}
+  type: 300
+  isCanBuild: 1
+  cost:
+  - resourceType: 10
+    value: 115
+  - resourceType: 20
+    value: 70
+  health: 100
+  avatar: {fileID: 21300000, guid: 4c72f3c555f96274787f31379fabb6ff, type: 3}
+  buildDifficult: 5
+  hireItems:
+  - unitConfig: {fileID: 11400000, guid: 7ee3fa39aac2d4648a5dc4c71e9e35cf, type: 2}
+    cost:
+    - resourceType: 10
+      value: 10
